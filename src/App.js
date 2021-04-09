@@ -12,16 +12,16 @@ function App() {
             <Router>
                 <Navbar />
                 <Switch>
-                    <Route exact path='/cocktails/'>
+                    <Route exact path='/react-cocktails/'>
                         <Home />
                     </Route>
-                    <Route exact path='/cocktails/about'>
+                    <Route exact path='/react-cocktails/about'>
                         <About />
                     </Route>
-                    <Route exact path='/cocktails/details/:id'>
+                    <Route exact path='/react-cocktails/details/:id'>
                         <CocktailDetails />
                     </Route>
-                    <Route path='/cocktails/*'>
+                    <Route path='/react-cocktails/*'>
                         <Error />
                     </Route>
                 </Switch>

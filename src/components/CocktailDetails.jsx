@@ -53,7 +53,7 @@ const CocktailDetails = () => {
                 <Loading />
             ) : (
                 <section className='section cocktail-section'>
-                    <Link to='/cocktails/' className='btn btn-primary'>
+                    <Link to='/react-cocktails/' className='btn btn-primary'>
                         back home
                     </Link>
                     <h2 className='section-title'>{strDrink}</h2>

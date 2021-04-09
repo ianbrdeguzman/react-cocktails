@@ -18,7 +18,7 @@ const Cocktail = ({
                 <h4>{strGlass}</h4>
                 <p>{strAlcoholic}</p>
                 <Link
-                    to={`/cocktails/details/${idDrink}`}
+                    to={`/react-cocktails/details/${idDrink}`}
                     className='btn btn-primary btn-details'
                 >
                     details
