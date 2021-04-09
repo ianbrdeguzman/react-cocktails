@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <nav className='navbar'>
             <div className='nav-center'>
-                <Link to='/cocktails/'>
+                <Link to='/react-cocktails/'>
                     <img
                         src='https://raw.githubusercontent.com/john-smilga/react-projects/0a0d36c196cc55f8e68166b990c1c46bc89c694c/15-cocktails/setup/src/logo.svg'
                         alt='Logo'

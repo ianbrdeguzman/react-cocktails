@@ -10,12 +10,12 @@ const CocktailDetails = () => {
         AppContext
     );
     const {
-        strDrink,
-        strDrinkThumb,
-        strAlcoholic,
-        strCategory,
-        strGlass,
-        strInstructions,
+        strDrink: name,
+        strDrinkThumb: img,
+        strAlcoholic: alchohol,
+        strCategory: category,
+        strGlass: glass,
+        strInstructions: instructions,
         strIngredient1,
         strIngredient2,
         strIngredient3,
@@ -56,31 +56,31 @@ const CocktailDetails = () => {
                     <Link to='/react-cocktails/' className='btn btn-primary'>
                         back home
                     </Link>
-                    <h2 className='section-title'>{strDrink}</h2>
+                    <h2 className='section-title'>{name}</h2>
                     <div className='drink'>
-                        <img src={strDrinkThumb} alt={strDrink} />
+                        <img src={img} alt={name} />
                         <div className='drink-info'>
                             <p>
                                 <span className='drink-data'>name :</span>
-                                {strDrink}
+                                {name}
                             </p>
                             <p>
                                 <span className='drink-data'>category :</span>
-                                {strCategory}
+                                {category}
                             </p>
                             <p>
                                 <span className='drink-data'>info :</span>
-                                {strAlcoholic}
+                                {alchohol}
                             </p>
                             <p>
                                 <span className='drink-data'>glass :</span>
-                                {strGlass}
+                                {glass}
                             </p>
                             <p>
                                 <span className='drink-data'>
                                     instructions :
                                 </span>
-                                {strInstructions}
+                                {instructions}
                             </p>
                             <p>
                                 <span className='drink-data'>
